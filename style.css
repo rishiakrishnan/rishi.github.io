@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+body{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	width: 100%;
+	font-family: 'Poppins',sans-serif;
+	overflow-x: hidden;
+}
+
+/* nabar starts*/
+.logo img{
+	width: 5rem;
+}
+
+li{
+	padding: 5px;
+
+
+}
+
+#menu a.nav-link{
+	font-size: 16px;
+	font-weight: bold;
+	border: 2px solid transparent;
+	color: #5A2B5D ;
+	transition: 1.0s;
+}
+
+a.nav-link:hover{
+	border-bottom: 2px solid #0D6EFD;
+	transition: 1.0s;
+}
+
+#navbar{
+	position: sticky;
+	top: 0px;
+	background-color: white;
+	z-index: 10;
+}
+
+/* section main for all sections */
+section{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* home area*/
+
+#home span{
+	color: #5A2B5D;
+	font-weight: bold;
+}
+
+#home p{
+	font-size: 18px;
+}
+
+
+/* about area*/
+
+#about img{
+	width: 25rem;
+	border-radius: 50px;
+}
+
+#about span{
+	color: #5A2B5D;
+	font-weight: bold;
+}
+
+/*service area*/
+
+.card img{
+	height: 250px;
+	transition: 1.5s;
+}
+
+.inner{
+	overflow: hidden;
+
+}
+
+.card img:hover{
+	transform: scale(1.5);
+	transition: 1.5s;
+}
+
+form{
+	padding: 40px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2),
+				-1px -1px 5px rgba(0,0,0,0.05);
+	border-radius: 30px;
+}
+
+/* footer area*/
+
+footer h5{
+	font-size: 28px;
+	color: #E67E22 ;
+}
+
+
+footer ul li{
+	list-style-type: none;
+}
+
+footer a{
+	color: white;
+	padding-right: 2px;
+
+}
+
+footer a:hover{
+	color: white;
+	padding-right: 2px;
+}
+
+footer ul li a{
+	font-size: 23px;
+	font-weight: bold;
+	border: 2px solid transparent;
+	color: white ;
+	transition: 1.0s;
+}
+
+footer ul li .nav-link:hover{
+	border-bottom: 2px solid red;
+}
+
+
+
+
+
+
